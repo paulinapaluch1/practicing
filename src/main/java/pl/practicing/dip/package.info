@@ -1,0 +1,6 @@
+/**
+ * pl.practicing.dip Package containing dependency inversion principle paractice code examples
+ */
+package pl.practicing.dip;
+
+//rest of the file is empty
