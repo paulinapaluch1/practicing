@@ -1,4 +1,4 @@
-package pl.practicing.ioc;
+package org.examples.ioc;
 
 public class ReadingService {
 	

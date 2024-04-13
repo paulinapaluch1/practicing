@@ -1,4 +1,6 @@
-package pl.practicing.dip.after;
+package org.examples.dip.with.books;
+
+import org.examples.dip.with.readingpersons.Book;
 
 public class PaperBook implements Book {
 	@Override

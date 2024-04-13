@@ -1,4 +1,4 @@
-package pl.practicing.dip.before;
+package org.examples.dip.without;
 
 public class Main {
 	public static void main(String[] args) {

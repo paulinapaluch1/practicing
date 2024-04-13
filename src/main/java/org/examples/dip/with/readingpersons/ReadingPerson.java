@@ -1,4 +1,4 @@
-package pl.practicing.dip.after;
+package org.examples.dip.with.readingpersons;
 
 public class ReadingPerson {
 

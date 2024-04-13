@@ -1,4 +1,4 @@
-package pl.practicing.ioc;
+package org.examples.ioc;
 
 import java.util.HashMap;
 import java.util.Map;
