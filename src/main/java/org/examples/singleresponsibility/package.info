@@ -1,5 +1,6 @@
 /**
  * org.examples.singleresponsibility Package containing single responsibility principle practice code examples
  */
-
+ 	Each class should have only one sole purpose,
+    and not be filled with excessive functionality
 

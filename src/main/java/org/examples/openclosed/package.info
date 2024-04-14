@@ -1,0 +1,7 @@
+/**
+ * org.examples.openclosed Package containing open closed principle practice code examples
+ */
+
+ 	Classes should be open for extension,
+    closed for modification.
+
