@@ -1,0 +1,6 @@
+/**
+ * org.examples.singleresponsibility Package containing liscov substitution principle practice code examples
+ */
+ 	This means that every subclass or
+    derived class should be substitutable for their
+    base or parent class
