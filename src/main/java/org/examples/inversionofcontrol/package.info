@@ -1,0 +1,5 @@
+/**
+ * org.examples.inversionofcontrol Package containing inversion of control practice code examples
+ */
+package org.examples.inversionofcontrol;
+

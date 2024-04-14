@@ -1,0 +1,5 @@
+/**
+ * org.examples.dependencyinversion Package containing dependency inversion principle practice code examples
+ */
+package org.examples.dependencyinversion;
+

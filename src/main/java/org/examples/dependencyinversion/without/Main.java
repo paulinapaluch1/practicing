@@ -1,4 +1,4 @@
-package org.examples.dip.without;
+package org.examples.dependencyinversion.without;
 
 public class Main {
 	public static void main(String[] args) {

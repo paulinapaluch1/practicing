@@ -1,8 +1,8 @@
-package org.examples.dip.with;
+package org.examples.dependencyinversion.with;
 
-import org.examples.dip.with.books.PaperBook;
-import org.examples.dip.with.readingpersons.Book;
-import org.examples.dip.with.readingpersons.ReadingPerson;
+import org.examples.dependencyinversion.with.books.PaperBook;
+import org.examples.dependencyinversion.with.readingpersons.Book;
+import org.examples.dependencyinversion.with.readingpersons.ReadingPerson;
 
 public class Main {
 	public static void main(String[] args) {

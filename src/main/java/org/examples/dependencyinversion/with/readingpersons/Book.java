@@ -1,4 +1,4 @@
-package org.examples.dip.with.readingpersons;
+package org.examples.dependencyinversion.with.readingpersons;
 
 public interface Book {
 	void read();

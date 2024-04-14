@@ -1,4 +1,4 @@
-package org.examples.ioc;
+package org.examples.inversionofcontrol;
 
 import java.util.HashMap;
 import java.util.Map;

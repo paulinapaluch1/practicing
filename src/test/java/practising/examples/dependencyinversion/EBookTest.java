@@ -1,11 +1,11 @@
-package practising.examples.dip;
+package practising.examples.dependencyinversion;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.examples.dip.with.books.EBook;
+import org.examples.dependencyinversion.with.books.EBook;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
