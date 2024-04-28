@@ -2,16 +2,14 @@ package org.examples.inversionofcontrol;
 
 public class ReadingService {
 	
-	private BazaDanych bazaDanych;
-	
-	//after
-	public ReadingService(BazaDanych bazaDanych) {
+	private DatabaseSQL bazaDanych;
+
+	public ReadingService(DatabaseSQL bazaDanych) {
 		this.bazaDanych = bazaDanych;
 	}
-	
-	//before
+
 	public ReadingService(Object[] properties) {
-		this.bazaDanych = new BazaDanych(properties);
+		this.bazaDanych = new DatabaseSQL(properties);
 	}
 
 	public void read() {

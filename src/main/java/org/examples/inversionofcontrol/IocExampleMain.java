@@ -1,18 +1,18 @@
 package org.examples.inversionofcontrol;
 
-public class Main {
+public class IocExampleMain {
 
 	public static void main(String[] args) {
-		before(args);
-		after(args);
+		caseWithIoc(args);
+		caseWithoutIoc(args);
 	}
 
-	private static void before(Object[] properties) {
+	private static void caseWithIoc(Object[] properties) {
 		ReadingRestController controller = new ReadingRestController(properties);
 		controller.readBook();
 	}
 
-	private static void after(Object[] properties) {
+	private static void caseWithoutIoc(Object[] properties) {
 		IocContainer iocContainer = new IocContainer();
 		iocContainer.init(properties);
 		
