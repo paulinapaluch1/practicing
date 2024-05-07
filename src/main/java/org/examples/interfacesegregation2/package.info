@@ -1,0 +1,9 @@
+/**
+ * org.examples.interfacesegregation Package containing interface segregation practice code examples
+ */
+package org.examples.interfacesegregation;
+
+
+  Interfaces should not force classes to implement
+    what they can’t do.
+    Large interfaces should be divided into small ones.
