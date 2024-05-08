@@ -1,0 +1,6 @@
+/**
+ * org.examples.stack.basic Zawiera przykład działania stosu, za pomocą wypisywania wartości integer i localInteger i wykonywania
+ operacji dodawania możemy zaobserwować, jak te wartości się zmieniają wraz z kolejnymi wywołaniami rekursywnymi.
+ Umieszczony został warunek >100, wtedy rekursja jest zatrzymywana, inaczej wystąpiłby StackOverflowError
+ */
+

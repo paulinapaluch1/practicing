@@ -1,0 +1,17 @@
+/**
+ * org.examples.stack.basic
+
+ Zmieniłam ClassWithRecursiveMethod na RecursiveAdditionProcessor - podkreśla to, że klasa przetwarza rekurencyjne dodawanie wartości do sumy.
+ Zmieniłam addRandomToInteger na performRecursiveAddition - metoda rekirencyjnie dodaje do sumy.
+ Zmieniłam integer na currentSum - zmienna przechowuję sume wartości.
+ Zmieniłam localInteger na addedValue - wartość dodawana do sumy.
+
+ Dodałam wydruk stack trace - wypisanie stosu wywołań. Bieżący stos pobieram Thread.currentThread().getStackTrace().
+ Wypisuję na konsolę elementy StackTraceElement[] - widać jak głęboko w stosie wywołań znajduje się dana instancja metody
+ performRecursiveAddition() w danym momencie.
+
+ Jeśli zmienię warunk 100 np. na 100000000 to otrzymam StackOverflowError - w przypadku wystąpienia drukuję stack trace.
+
+
+ */
+
